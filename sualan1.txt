@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ĐĂNG KÝ HỌC VIÊN</title>
+    <style>
+        h1 {
+            color: blue
+        }
+
+        h1 {
+            background-color: cornflowerblue
+        }
+        table{background-color: bisque}
+    </style>
+</head>
+<body>
+<h1>ĐĂNG KÝ HỌC VIÊN</h1>
+<table>
+    <tr>
+        <td>Họ và tên</td>
+        <td><input type="text"/></td>
+
+    </tr>
+    <tr>
+        <td>Ngày sinh</td>
+        <td><input type="text"/></td>
+    </tr>
+    <tr>
+        <td>Giới tính</td>
+        <td><input type="radio" name="giới tính"> Nam</td>
+        <td><input type="radio" name="giới tính"> Nữ</td>
+    </tr>
+    <tr>
+        <td>Địa chỉ</td>
+        <td><textarea cols="50" rows="5"></textarea></td>
+    </tr>
+    <tr>
+        <td>Lớp</td>
+        <td><select>
+            <option>Chọn Lớp</option>
+            <option>C0321K1</option>
+            <option>C0321K2</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email"></td>
+    </tr>
+    <tr>
+        <td>Điện Thoại</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="button" value="Đăng kí"></button></td>
+        <td><input type="button" value="Nhập lại"></button></td>
+    </tr>
+</table>
+</body>
+</html>
